@@ -15,7 +15,8 @@ selectedRecipe: Recipe;
   ngOnInit() {
     // subscribe is listening to any changes that happen
     // here I set the recipe to the one we got from the event
-    // matches event in recipe service
+    // matches event in recipe service, testing making a change in git
+
     this.recipeService.recipeSelected.subscribe(
        (recipe: Recipe) => {
          this.selectedRecipe = recipe;
